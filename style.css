@@ -1,5 +1,8 @@
 /* Sélécteur : nom de la balise HTML */
 h1 {
-    color: red;
+    /* Régle CSS permettant de définir la couleur du texte */
+    color: rgb(255, 0, 0);
+    /* Couleur d'arrière plan */
+    background-color: #7a3131;
 }
 
