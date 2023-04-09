@@ -3,30 +3,33 @@
 }
 
 body {
+    margin: 0;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-header nav {
+nav {
     background-color: rgb(50, 50, 50);
-    padding: 0.6em;
+    padding: 0.5em;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
-    margin-right: 2em;
 }
 
-header nav ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
 }
 
-header nav ul li:not(:last-child) {
+nav ul li:not(:last-child) {
     margin-right: 2em;
 }
 
