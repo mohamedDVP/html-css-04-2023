@@ -13,4 +13,10 @@ header nav ul {
 
 header nav ul li {
     display: inline;
+    margin-right: 2em;
 }
+
+header nav ul li:not(:last-child) {
+    margin-right: 2em;
+}
+
